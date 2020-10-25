@@ -6,9 +6,8 @@
   "author": "Your Name <email@email.com>",
   "main": "src/index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /pong-game",
-    "build": "parcel build ./index.html",
+    "start": "parcel dist/index.html",
+    "build": "rm -rf dist && parcel build ./index.html",
     "worky": "pwd"
   },
   "dependencies": {
