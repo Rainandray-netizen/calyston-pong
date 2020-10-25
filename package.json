@@ -7,11 +7,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "parcel index.html -p 3000",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /YOUR-REPO-NAME",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /pong-game",
+    "build": "parcel build ./index.html",
+    "worky": "pwd"
   },
-  "devDependencies": {
+  "dependencies": {
     "gh-pages": "^2.0.1",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.4"
   }
 }
